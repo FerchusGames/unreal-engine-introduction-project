@@ -18,9 +18,11 @@ int main()
     int numberToGuess;
     int playerGuess;
 
+    srand(time(0));
 
     do
     {
+
         numberToGuess = (rand() % 99) + 1;
 
         std::cout << "BIENVENIDO A GUESS MY NUMBER" << std::endl << std::endl;
