@@ -25,6 +25,9 @@ void guessMyNumber()
             cout << endl;
             cout << "Ingresa el número a adivinar: ";
             cin >> playerGuess;
+
+            cinIntSafeguard(&playerGuess);
+
             cout << endl;
 
             if (playerGuess > numberToGuess && (playerGuess - numberToGuess) <= 5)
@@ -32,17 +35,17 @@ void guessMyNumber()
                 cout << SMALLER_NUMBER_LESS_THAN_FIVE;
             }
 
-            if (playerGuess > numberToGuess && (playerGuess - numberToGuess) > 5)
+            else if (playerGuess > numberToGuess && (playerGuess - numberToGuess) > 5)
             {
                 cout << SMALLER_NUMBER_MORE_THAN_FIVE;
             }
 
-            if (playerGuess < numberToGuess && (numberToGuess - playerGuess) <= 5)
+            else if (playerGuess < numberToGuess && (numberToGuess - playerGuess) <= 5)
             {
                 cout << BIGGER_NUMBER_LESS_THAN_FIVE;
             }
 
-            if (playerGuess < numberToGuess && (numberToGuess - playerGuess) > 5)
+            else if (playerGuess < numberToGuess && (numberToGuess - playerGuess) > 5)
             {
                 cout << BIGGER_NUMBER_MORE_THAN_FIVE;
             }

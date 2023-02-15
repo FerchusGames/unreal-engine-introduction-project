@@ -7,4 +7,6 @@
 
 using namespace std;
 
+void cinIntSafeguard(int* inputNumber);
+
 void guessMyNumber();

@@ -129,6 +129,7 @@
   <ItemGroup>
     <ClCompile Include="GuessMyNumber.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Tools.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ejercicios.h" />
