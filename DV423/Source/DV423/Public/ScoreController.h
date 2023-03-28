@@ -15,6 +15,15 @@ public:
 	// Sets default values for this actor's properties
 	AScoreController();
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Widgets")
+	TSubclassOf<class UUserWidget> ScoreTextWidget;
+	
+	TWeakObjectPtr<class UUserWidget> pScoreTextWidget;
+	TWeakObjectPtr<class UTextBlock> pScoreText;
+
+	UFUNCTION(BlueprintCallable, Category="Score")
+	void IncreaseScore(int amount);
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
@@ -23,4 +32,6 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
+private:
+	int Score;
 };
