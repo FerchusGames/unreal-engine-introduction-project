@@ -23,6 +23,9 @@ public:
 
 	UFUNCTION(BlueprintCallable, Category="Score")
 	void IncreaseScore(int amount);
+	
+	UFUNCTION(BlueprintCallable, Category="Score")
+	const int GetScore();
 
 protected:
 	// Called when the game starts or when spawned

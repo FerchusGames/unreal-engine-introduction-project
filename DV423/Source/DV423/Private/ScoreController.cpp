@@ -19,6 +19,11 @@ void AScoreController::IncreaseScore(int amount)
 	pScoreText->SetText(FText::FromString(FString::FromInt(Score)));
 }
 
+const int AScoreController::GetScore()
+{
+	return Score;
+}
+
 // Called when the game starts or when spawned
 void AScoreController::BeginPlay()
 {
