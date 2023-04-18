@@ -1,11 +1,11 @@
 {
     "Version": "1.1",
     "Data": {
-        "Source": "c:\\users\\universidad amerike\\documents\\github\\ferchus\\dv423-ferchus\\dv423\\plugins\\developer\\riderlink\\source\\ridershaderinfo\\ridershaderinfo.cpp",
+        "Source": "c:\\users\\ferchus\\documents\\github\\dv423-ferchus\\dv423\\plugins\\developer\\riderlink\\source\\ridershaderinfo\\ridershaderinfo.cpp",
         "ProvidedModule": "",
         "Includes": [
-            "c:\\users\\universidad amerike\\documents\\github\\ferchus\\dv423-ferchus\\dv423\\plugins\\developer\\riderlink\\intermediate\\build\\win64\\unrealeditor\\development\\ridershaderinfo\\definitions.h",
-            "c:\\users\\universidad amerike\\documents\\github\\ferchus\\dv423-ferchus\\dv423\\plugins\\developer\\riderlink\\source\\ridershaderinfo\\ridershaderinfo.h",
+            "c:\\users\\ferchus\\documents\\github\\dv423-ferchus\\dv423\\plugins\\developer\\riderlink\\intermediate\\build\\win64\\unrealeditor\\development\\ridershaderinfo\\definitions.h",
+            "c:\\users\\ferchus\\documents\\github\\dv423-ferchus\\dv423\\plugins\\developer\\riderlink\\source\\ridershaderinfo\\ridershaderinfo.h",
             "c:\\program files\\epic games\\ue_5.0\\engine\\source\\runtime\\core\\public\\modules\\moduleinterface.h",
             "c:\\program files\\epic games\\ue_5.0\\engine\\source\\runtime\\core\\public\\coretypes.h",
             "c:\\program files\\epic games\\ue_5.0\\engine\\source\\runtime\\core\\public\\hal\\platform.h",
@@ -434,8 +434,6 @@
             "c:\\program files\\epic games\\ue_5.0\\engine\\source\\runtime\\core\\public\\async\\fundamental\\taskdelegate.h",
             "c:\\program files\\epic games\\ue_5.0\\engine\\source\\runtime\\core\\public\\experimental\\concurrentlinearallocator.h",
             "c:\\program files\\epic games\\ue_5.0\\engine\\source\\runtime\\core\\public\\hal\\mallocansi.h",
-            "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.35.32215\\include\\sanitizer\\asan_interface.h",
-            "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.35.32215\\include\\sanitizer\\common_interface_defs.h",
             "c:\\program files\\epic games\\ue_5.0\\engine\\source\\runtime\\core\\public\\misc\\scopeexit.h",
             "c:\\program files\\epic games\\ue_5.0\\engine\\source\\runtime\\core\\public\\misc\\launder.h",
             "c:\\program files\\epic games\\ue_5.0\\engine\\source\\runtime\\core\\public\\hal\\thread.h",

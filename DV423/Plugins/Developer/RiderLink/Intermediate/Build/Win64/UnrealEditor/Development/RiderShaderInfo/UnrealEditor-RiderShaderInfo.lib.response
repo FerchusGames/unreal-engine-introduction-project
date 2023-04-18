@@ -6,6 +6,6 @@
 /NAME:"UnrealEditor-RiderShaderInfo.dll"
 /IGNORE:4221
 /NODEFAULTLIB
-"C:\Users\Universidad Amerike\Documents\GitHub\Ferchus\dv423-ferchus\DV423\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UnrealEditor\Development\RiderShaderInfo\RiderShaderInfo.cpp.obj"
-"C:\Users\Universidad Amerike\Documents\GitHub\Ferchus\dv423-ferchus\DV423\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UnrealEditor\Development\RiderShaderInfo\Default.rc2.res"
-/OUT:"C:\Users\Universidad Amerike\Documents\GitHub\Ferchus\dv423-ferchus\DV423\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UnrealEditor\Development\RiderShaderInfo\UnrealEditor-RiderShaderInfo.lib"
+"C:\Users\Ferchus\Documents\GitHub\dv423-ferchus\DV423\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UnrealEditor\Development\RiderShaderInfo\RiderShaderInfo.cpp.obj"
+"C:\Users\Ferchus\Documents\GitHub\dv423-ferchus\DV423\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UnrealEditor\Development\RiderShaderInfo\Default.rc2.res"
+/OUT:"C:\Users\Ferchus\Documents\GitHub\dv423-ferchus\DV423\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UnrealEditor\Development\RiderShaderInfo\UnrealEditor-RiderShaderInfo.lib"
